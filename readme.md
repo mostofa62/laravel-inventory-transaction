@@ -25,10 +25,10 @@ $ php artisan db:seed --class=ItemTableSeeder
 
 | Plugin | README | NOTES
 | ------ | ------ |------
-| INSERT ITEM STOCK (IN) | [/stock?item={item_id}&optype=1&quantity=4][PlDb] | optype=1 ( 1 = IN )
-| PICK ITEM (IN) | [/stock?item={item_id}&optype=2&quantity=2][PlDb] | optype=2 ( 2 = OUT )
-| UPDATE STOCK | [/stock/{stockid}?quantity=10][PlDb] | 
-| DELETE STOCK | [/stock/d/{stockid}][PlDb] | 
+| INSERT ITEM STOCK (IN) | /stock?item={item_id}&optype=1&quantity=4 | optype=1 ( 1 = IN )
+| PICK ITEM (IN) | /stock?item={item_id}&optype=2&quantity=2 | optype=2 ( 2 = OUT )
+| UPDATE STOCK | /stock/{stockid}?quantity=10 | 
+| DELETE STOCK | /stock/d/{stockid} | 
 
 ### Some Important Link
 - https://laravel.com/docs/5.8/database#database-transactions
